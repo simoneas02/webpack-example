@@ -1,3 +1,3 @@
-console.log('untils.js is running')
+// console.log('untils.js is running')
 
 const square = x => x * x

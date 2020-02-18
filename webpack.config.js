@@ -16,15 +16,16 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.scss$/,
+        test: /\.s?css$/,
         use: ['style-loader', 'css-loader', 'sass-loader']
-        // test: /\.css$/,
-        // use: ['style-loader', 'css-loader', ]
       }
     ]
   },
   devtool: 'cheap-module-eval-source-map',
   devServer: {
-    contentBase: localPath
+    contentBase: localPath,
+    historyApiFallback: {
+      index: 'public/index.html'
+    }
   }
 }
