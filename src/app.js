@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 
 import './untils'
 import './redux-101'
+import './destructuring'
 
 import './styles/styles.scss'
 
