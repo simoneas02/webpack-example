@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import './untils'
-import './redux-101'
-import './destructuring'
+// import './untils'
+// import './redux-101'
+// import './destructuring'
+import './redux-expensify'
 
 import './styles/styles.scss'
 
